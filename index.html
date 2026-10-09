@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My food project</title>
+    
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="vendors/css/grid.css">
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="resources/css/style.css">
+<link rel="stylesheet" href="vendors/css/queries.css">
+
+</head>
+<body>
+    <!-- front page -->
+    <header>
+        <nav id="navbar">
+                    <img class="logo" src="resources/img/logo.png" alt="image">
+                    <ul class="link">
+                        <li><a href="#signup">SignUp</a></li>
+                        <li><a href="#loc">
+                            <ion-icon name="location-outline"></ion-icon>
+                            location</a></li>
+                        <li><a href="#">Accounts</a></li>
+                        <li><a href="#">Orders</a></li>
+                        <li><a href="#"><ion-icon name="cart-outline"></ion-icon>cart</a></li>
+                    </ul>
+        </nav>
+            <div class="hero-text-box">
+                <h1>Hello! Welcome <br/>to my Website</h1>
+                <br>
+                <a class="btn btn-full" href="#menu">MENU</a>
+                <a class="btn btn-ghost" href="#review">explore more</a>
+            </div>
+    </header>
+
+    <!-- features -->
+       <section class="section-features" id="review">
+    <h2>GET FOOD FAST &mdash; not fast food</h2>
+    <p class="subtitle">Discover a faster, easier, and more convenient way to enjoy your favorite meals. Whether you're craving a quick snack, a family dinner, or a late-night treat, our platform connects you with trusted restaurants and delivers fresh food right to your doorstep.</p>
+    
+
+    <div class="row">
+        <div class="col span_1_of_6 box">
+            <div class="icon">🍽️</div>
+            <h3>Restaurant Selection</h3>
+            <p>Browse hundreds of local restaurants offering a wide variety of cuisines, from traditional favorites to international dishes. Find exactly what you're craving in just a few clicks.</p>
+        </div>
+
+       <div class="col span_1_of_6 box">
+          <div class="icon">⚡</div>
+          <h3>Fast Delivery</h3>
+          <p>Our delivery partners work efficiently to ensure your food arrives fresh, hot, and on time. Real-time tracking keeps you updated every step of the way.</p>
+       </div>
+
+       <div class="col span_1_of_6 box">
+           <div class="icon">📍</div>
+           <h3>Live Order Tracking</h3>
+           <p>Track your order from the restaurant kitchen to your doorstep with real-time updates. Know exactly when your food will arrive without any guesswork.e.</p>
+       </div>
+
+       <div class="col span_1_of_6 box">
+           <div class="icon">💳</div>
+           <h3>Secure Payments</h3>
+           <p>Pay with confidence using multiple secure payment options, including credit/debit cards, UPI, digital wallets, net banking, and Cash on Delivery.</p>
+       </div>
+
+       <div class="col span_1_of_6 box">
+          <div class="icon">🎁</div>
+          <h3>Exclusive Offers</h3>
+          <p>Enjoy exciting offers, seasonal promotions, cashback, referral bonuses, and loyalty rewards that help you save more on every order.</p>
+       </div>
+
+       <div class="col span_1_of_6 box">
+           <div class="icon">⭐</div>
+           <h3>Trusted Reviews</h3>
+           <p>Read genuine ratings and reviews from real customers before placing your order, making it easier to choose the best restaurants and dishes.
+       </div>
+    </div>
+       </section>
+
+<!-- adding food menu -->
+       <section class="section-meals" id="menu"   <div data-aos="fade-in" data-aos-duration="2500"></div>>
+    <ul class="meal-showcase clearfix">
+        <li>
+            <figure class="meal-photo">
+                <img src="resources/img/biriyani.webp" alt="biriyani">
+            </figure>
+        </li>
+        <li>
+            <figure class="meal-photo">
+                <img src="resources/img/naan.webp" alt="naan & butter chicken">
+            </figure>
+        </li>
+        <li>
+            <figure class="meal-photo">
+                <img src="resources/img/lachha.webp" alt="lachha paratha">
+            </figure>
+        </li>
+        <li>
+            <figure class="meal-photo">
+                <img src="resources/img/mashroom.webp" alt="mashroom">
+            </figure>
+        </li>
+        <li>
+            <figure class="meal-photo">
+                <img src="resources/img/mutton.webp" alt="biriyani">
+            </figure>
+        </li>
+        <li>
+            <figure class="meal-photo">
+                <img src="resources/img/paneer.webp" alt="naan & butter chicken">
+            </figure>
+        </li>
+        <li>
+            <figure class="meal-photo">
+                <img src="resources/img/pizza.webp" alt="lachha paratha">
+            </figure>
+        </li>
+        <li>
+            <figure class="meal-photo">
+                <img src="resources/img/salad.webp" alt="mashroom">
+            </figure>
+        </li>
+    </ul>
+       </section>
+
+<!-- steps to follow -->
+       <section class="section-step"   <div data-aos="fade-in" data-aos-duration="2500"></div>>
+    <div class="row">
+        <h2 class="h">How it works &mdash; simple as 1, 2,3</h2>
+    </div>
+    <div class="row">
+        <div class="col span_1_of_2 steps-box">
+            <img data-aos="slide-left" data-aos-duration="1000" src="resources/img/3.webp" alt="phone-image" class="app-screen">
+        </div>
+    <div class="col span_1_of_2 steps-box">
+            <div class="works-step">
+            <div style="font-weight: bold;"><b>1.</b></div>
+            <p>Choose the food that fits best for your need and order today</p>
+        </div>
+        <div class="works-step">
+            <div style="font-weight: bold;"><b>2.</b></div>
+            <p>Choose the payment options</p>
+        </div>
+        <div class="works-step">
+            <div style="font-weight: bold;"><b>3.</b></div>
+            <p>You are done start ordering!!</p>
+        </div>
+        <a href="#" class="btn-app"><img src="resources/img/1.webp" alt="play store"></a>
+        <a href="#" class="btn-app"><img src="resources/img/2.png" alt="app store"></a>
+    </div>
+
+    </div>
+    </section>
+
+<!-- available cities -->
+     <section class="section-cities" id="loc"   <div data-aos="fade-in" data-aos-duration="2500"></div>>
+    <div class="row">
+        <h2>We are currently in these cities</h2>
+    </div>
+    <div class="row">
+        <div class="col span_1_of_4 boxes">
+            <img src="resources/img/bbsr.webp" alt="Bhubaneswar">
+            <h3>Bhubaneswar</h3>
+            <div class="citi-features">
+                <ion-icon class="small-icon" name="person-circle-outline"></ion-icon>
+                2.5k+ Happy users
+            </div>
+            <div class="citi-features">
+                <ion-icon class="small-icon" name="star-sharp"></ion-icon>
+                1.2k+ Ratings
+            </div>
+            <div class="citi-features">
+                <ion-icon class="small-icon" name="logo-twitter"></ion-icon>
+                <a href="#" class="twitter">@omnifood_li</a>
+            </div>
+        </div>
+        <div class="col span_1_of_4 boxes">
+            <img src="resources/img/mumbai.webp" alt="mumbai">
+            <h3>Mumbai</h3>
+            <div class="citi-features">
+                <ion-icon class="small-icon" name="person-circle-outline"></ion-icon>
+                1.5k+ Happy users
+            </div>
+            <div class="citi-features">
+                <ion-icon  class="small-icon" name="star-sharp"></ion-icon>
+                800+ Ratings
+            </div>
+            <div class="citi-features">
+                <ion-icon  class="small-icon" name="logo-twitter"></ion-icon>
+                <a href="#" class="twitter">@omnifood_dl</a>
+            </div>
+        </div>
+        <div class="col span_1_of_4 boxes">
+            <img src="resources/img/chennai.webp" alt="cchennai">
+            <h3>Chennai</h3>
+            <div class="citi-features">
+                <ion-icon class="small-icon" class="small-icon" name="person-circle-outline"></ion-icon>
+                3.5k+ Happy users
+            </div>
+            <div class="citi-features">
+                <ion-icon class="small-icon" name="star-sharp"></ion-icon>
+                1.6k+ Ratings
+            </div>
+            <div class="citi-features">
+                <ion-icon class="small-icon" name="logo-twitter"></ion-icon>
+                <a href="#" class="twitter">@omnifood_cf</a>
+            </div>
+        </div>
+        <div class="col span_1_of_4 boxes">
+            <img src="resources/img/delhi.webp" alt="delhi">
+            <h3>Delhi</h3>
+            <div class="citi-features">
+                <ion-icon class="small-icon" name="person-circle-outline"></ion-icon>
+                2.7k+ Happy users
+            </div>
+            <div class="citi-features">
+                <ion-icon class="small-icon" name="star-sharp"></ion-icon>
+                1.4k+ Ratings
+            </div>
+            <div class="citi-features">
+                <ion-icon class="small-icon" name="logo-twitter"></ion-icon>
+                <a href="#"  class="twitter">@omnifood_dl</a>
+            </div>
+        </div>
+    </div>
+    
+     </section>
+
+<!-- reviews -->
+
+     <section class="section-testimonial"   <div data-aos="fade-in" data-aos-duration="2500"></div>>
+    <div class="row">
+        <h2 class="review">We will never break the trust of our customers.</h2>
+    </div>
+    <div class="row">
+        <div class="col span_1_of_3">
+    <blockquote>
+        I've been ordering from this website for over six months, and every meal has been fresh, delicious, and delivered on time. The ordering process is simple, the prices are reasonable, and the quality is always excellent. I highly recommend this service to anyone who loves good food.
+        <cite><img src="resources/img/cust-1.png" alt="Customer 1">Aarav Sharma</cite>
+    </blockquote>
+</div>
+
+<div class="col span_1_of_3">
+    <blockquote>
+        This food delivery service has completely changed my daily routine. The meals are healthy, flavorful, and always arrive hot. The app is easy to use, and customer support is quick to respond whenever I need assistance. I'm extremely satisfied with every order.
+        <cite><img src="resources/img/cust-2.png" alt="Customer 2">Priya Patel</cite>
+    </blockquote>
+</div>
+
+<div class="col span_1_of_3">
+    <blockquote>
+        The variety of dishes is amazing, and every order is packed carefully to keep the food fresh. I especially appreciate the fast delivery and consistent quality. This has become my favorite platform for ordering lunch and dinner.
+        <cite><img src="resources/img/cust-3.png" alt="Customer 3">Rahul Verma</cite>
+    </blockquote>
+</div>
+    </div>
+     </section>
+
+
+<!-- sign up -->
+
+     <section class="section-plans"  id="signup"   <div data-aos="fade-in" data-aos-duration="2500"></div>>
+        <div class="row">
+            <h2>START EATING HEALTHY TODAY</h2>
+        </div>
+       <div class="row">
+         <div class="col span_1_of_3">
+            <div class="plan-box">
+                <div>
+                    <h3>Basic</h3>
+                    <p class="plan-price">$15 <span>/Order</span> </p>
+                    <p class="plan-price-meal">&nbsp;</p>
+                </div>
+                <div>
+                    <ul>
+                        <li><ion-icon name="checkmark-outline"></ion-icon>Whenever you want</li>
+                        <li><ion-icon name="checkmark-outline"></ion-icon>Order 24*7</li>
+                        <li><ion-icon name="checkmark-outline"></ion-icon>Access to newest creations</li>
+                        <li><ion-icon name="checkmark-outline"></ion-icon>free delivery</li>
+                        <li><ion-icon name="checkmark-outline"></ion-icon>24*7 Customer care support</li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="#" class="btn btn-ghost">Sign Up</a>
+                </div>
+            </div>
+         </div>
+         <div class="col span_1_of_3">
+            <div class="plan-box">
+                <div>
+                    <h3>Advanced</h3>
+                    <p class="plan-price">$199<span>/month</span></p>
+                    <p class="plan-price-meal">That's only 13.226$ per order</p>
+                </div>
+                <div>
+                    <ul>
+                        <li><ion-icon name="checkmark-outline"></ion-icon>1 order in 2 days</li>
+                        <li><ion-icon name="checkmark-outline"></ion-icon>Order 24*7</li>
+                        <li><ion-icon name="close-outline"></ion-icon></li>
+                        <li><ion-icon name="checkmark-outline"></ion-icon>free delivery</li>
+                        <li><ion-icon name="checkmark-outline"></ion-icon>24*7 Customer care support</li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="#" class="btn btn-ghost">Sign Up</a>
+                </div>
+            </div>
+         </div>
+         <div class="col span_1_of_3">
+            <div class="plan-box">
+                <div>
+                    <h3>Premium</h3>
+                    <p class="plan-price">$349 <span>/month</span> </p>
+                    <p class="plan-price-meal">That's only 11.633$ per order</p>
+                </div>
+                <div>
+                    <ul>
+                        <li><ion-icon name="checkmark-outline"></ion-icon>1 order per day</li>
+                        <li><ion-icon name="checkmark-outline"></ion-icon>Order 24*7</li>
+                        <li><ion-icon name="checkmark-outline"></ion-icon>Access to newest creations</li>
+                        <li><ion-icon name="checkmark-outline"></ion-icon>free delivery</li>
+                        <li><ion-icon name="checkmark-outline"></ion-icon>24*7 Customer care support</li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="#" class="btn btn-ghost">Sign Up</a>
+                </div>
+            </div>
+         </div>
+       </div>
+     </section>
+
+<!-- contact section -->
+
+<section class="section-form">
+    <div class="row">
+        <h2>we are happy to hear you</h2>
+    </div>
+    <div class="row">
+        <form action="#" method="POST">
+            <div class="row">
+                <div class="col span_1_of_3">
+                     <label>Name</label>
+                </div>
+                <div class="col span_2_of_3">
+                    <input type="text" name="name" id="name" placeholder="Enter your name"  required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span_1_of_3">
+                     <label>Email</label>
+                </div>
+                <div class="col span_2_of_3">
+                    <input type="email" name="Email" id="Email" placeholder="Enter your Email"  required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span_1_of_3">
+                     <label>How did you find us?</label>
+                </div>
+                <div class="col span_2_of_3">
+                    <select name="find-us" id="find-us">
+                        <option value="friends">Friends</option>
+                        <option value="Search">Search engine</option>
+                        <option value="ad">Advertisement</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span_1_of_3">
+                     <label>Newsletter?</label>
+                </div>
+                <div class="col span_2_of_3">
+                    <input type="checkbox" name="news" id="news" unchecked>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span_1_of_3">
+                     <label>Drop your comments</label>
+                </div>
+                <div class="col span_2_of_3">
+                    <textarea name="text" id="text" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span_1_of_3">
+                     <label>&nbsp;</label>
+                </div>
+                <div class="col span_2_of_3">
+                    <input type="submit" value="Submit">
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- footer section -->
+
+<footer>
+    <div class="row">
+        <div class="col span_1_of_2">
+            <ul class="footer-nav">
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">IOS App</a></li>
+                <li><a href="#">Android App</a></li>
+            </ul>
+        </div>
+        <div class="col span_1_of_2">
+                <ul class="social-links">
+                    <li><ion-icon class="fb" name="logo-facebook"></ion-icon></li>
+                    <li><ion-icon  class="insta" name="logo-instagram"></ion-icon></li>
+                    <li><ion-icon class="x" name="logo-x"></ion-icon></li>
+                    <li><ion-icon class="google" name="logo-google"></ion-icon></li>
+                </ul>
+        </div>
+    </div>
+    <div class="row">
+        <p>Copyright &copy; 2015 by Omnifood.All rights reserved.</p>
+    </div>
+</footer>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+<script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+</body>
+</html>
